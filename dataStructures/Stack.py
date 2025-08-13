@@ -1,11 +1,10 @@
-arr = []
+stack = []
 
-arr.append(1)
-arr.append(2)
-arr.append(3)
-arr.append(4)
-print(arr)
+stack.append(10)
+stack.append(20)
+print(stack[-1])
 
-arr.pop()
-print(arr)
+print(stack.pop())
+print(stack.pop())
 
+print(not stack)

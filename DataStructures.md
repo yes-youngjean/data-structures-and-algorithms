@@ -41,7 +41,7 @@
 
 ---
 ## Stack
-* A stack is a linear data structure that follows the **Last In, First Out (LIFO) principle
+* A stack is a linear data structure that follows the **Last In, First Out (LIFO)** principle
   * The last element added is the first one removed
 
 ### 📚 Basic Stack Operations
@@ -51,3 +51,16 @@
 | `pop()`           | Remove and return the top element                 |
 | `peek()` / `top()`| Return the top element without removing           |
 | `is_empty()`      | Check if the stack is empty                       |
+
+
+--- 
+## Queue
+* A queue is a linear data structure that follows the **First In, First Out (FIFO)** principle
+
+### 📚 Basic Queue Operations
+| Operation            | Description                              |
+|----------------------|------------------------------------------|
+| `enque(x)`           | Add element to the **back** of the queue |
+| `deque`              | Remove element from the **front**        |
+| `peek()` / `front()` | Get the front element without removing   |
+| `is_empty()`         | Check if the queue is empty              |
