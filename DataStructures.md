@@ -64,3 +64,12 @@
 | `deque`              | Remove element from the **front**        |
 | `peek()` / `front()` | Get the front element without removing   |
 | `is_empty()`         | Check if the queue is empty              |
+
+
+---
+## Heap
+* A heap is a **special binary tree-based data structure** that satisfies the heap property
+  * In a **Max Heap**, the parent is always greater than or equal to its children
+  * In a **Min Heap**, the parent is always less than or equal to its children
+* ✅ Heaps are **complete binary trees**
+  * All levels are full except possibly the last, which is filled from left to right
